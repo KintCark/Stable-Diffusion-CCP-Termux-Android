@@ -94,23 +94,38 @@ usage: ./bin/sd [arguments]
 
 arguments:
   -h, --help                         show this help message and exit
-  -M, --mode [MODEL]                 run mode (txt2img or img2img or convert, default: txt2img)
-  -t, --threads N                    number of threads to use during computation (default: -1).
+  
+-M, --mode [MODEL]                 run mode (txt2img or img2img or convert, default: txt2img)
+  
+-t, --threads N                    number of threads to use during computation (default: -1).
                                      If threads <= 0, then threads will be set to the number of CPU physical cores
-  -m, --model [MODEL]                path to model
-  --vae [VAE]                        path to vae
-  --taesd [TAESD_PATH]               path to taesd. Using Tiny AutoEncoder for fast decoding (low quality)
-  --control-net [CONTROL_PATH]       path to control net model
-  --embd-dir [EMBEDDING_PATH]        path to embeddings.
-  --stacked-id-embd-dir [DIR]        path to PHOTOMAKER stacked id embeddings.
-  --input-id-images-dir [DIR]        path to PHOTOMAKER input id images dir.
-  --normalize-input                  normalize PHOTOMAKER input id images
-  --upscale-model [ESRGAN_PATH]      path to esrgan model. Upscale images after generate, just RealESRGAN_x4plus_anime_6B supported by now.
-  --upscale-repeats                  Run the ESRGAN upscaler this many times (default 1)
-  --type [TYPE]                      weight type (f32, f16, q4_0, q4_1, q5_0, q5_1, q8_0)
+  
+-m, --model [MODEL]                path to model
+ 
+ --vae [VAE]                        path to vae
+  
+--taesd [TAESD_PATH]               path to taesd. Using Tiny AutoEncoder for fast decoding (low quality)
+  
+--control-net [CONTROL_PATH]       path to control net model
+  
+--embd-dir [EMBEDDING_PATH]        path to embeddings.
+  
+--stacked-id-embd-dir [DIR]        path to PHOTOMAKER stacked id embeddings.
+  
+--input-id-images-dir [DIR]        path to PHOTOMAKER input id images dir.
+  
+--normalize-input                  normalize PHOTOMAKER input id images
+  
+--upscale-model [ESRGAN_PATH]      path to esrgan model. Upscale images after generate, just RealESRGAN_x4plus_anime_6B supported by now.
+  
+--upscale-repeats                  Run the ESRGAN upscaler this many times (default 1)
+  
+--type [TYPE]                      weight type (f32, f16, q4_0, q4_1, q5_0, q5_1, q8_0)
                                      If not specified, the default is the type of the weight file.
-  --lora-model-dir [DIR]             lora model directory
-  -i, --init-img [IMAGE]             path to the input image, required by img2img
+  
+--lora-model-dir [DIR]             lora model directory
+  
+-i, --init-img [IMAGE]             path to the input image, required by img2img
 
 
 
