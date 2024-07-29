@@ -65,6 +65,12 @@ TO RUN
 
 i used marco file manager to create the models folder in the build folder.
 
+cd ubuntu-in-termux && ./startubuntu.sh
+
+
+cd stable-diffusion.cpp && cd build
+
+
 ./bin/sd -m /root/stable-diffusion.cpp/build/models/portray_v10.safetensors -p "a lovely cat"
 
 
