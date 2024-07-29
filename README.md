@@ -61,6 +61,12 @@ cmake --build . --config Release
 cmake .. -DGGML_OPENBLAS=ON
 cmake --build . --config Release
 
+13
+
+cmake .. -DSD_FLASH_ATTN=ON
+cmake --build . --config Release
+
+
 TO RUN
 
 i used marco file manager to create the models folder in the build folder.
