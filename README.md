@@ -127,6 +127,8 @@ arguments:
   
 -i, --init-img [IMAGE]             path to the input image, required by img2img
 
+--vae-on-cpu 
+helps defeat artifacts in images where no nvidia gpu is presented 
 
 
 
