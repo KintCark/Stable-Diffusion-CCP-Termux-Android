@@ -136,3 +136,17 @@ helps defeat artifacts in images where no nvidia gpu is presented
 
 
 
+Quantization
+You can specify the model weight type using the --type parameter. The weights are automatically converted when loading the model.
+
+f16 for 16-bit floating-point
+f32 for 32-bit floating-point
+q8_0 for 8-bit integer quantization
+q5_0 or q5_1 for 5-bit integer quantization
+q4_0 or q4_1 for 4-bit integer quantization
+
+
+
+
+
+
