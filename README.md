@@ -146,6 +146,14 @@ q5_0 or q5_1 for 5-bit integer quantization
 q4_0 or q4_1 for 4-bit integer quantization
 
 
+WANT TO SEE YOUR IMAGE AFTER IT GENERATES INSTALL THIS.PUT THE COMMAND AT THE END OF YOUR ARGS
+
+pip install termvisage
+
+COMMAND>
+
+ && termvisage /root/stable-diffusion.cpp/build/output.png
+
 
 
 
