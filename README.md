@@ -57,6 +57,7 @@ cmake ..
 cmake --build . --config Release
 
 12
+if this Command doesn't work go to the original respiratory and copy it from there
 
 cmake .. -DGGML_OPENBLAS=ON
 cmake --build . --config Release
