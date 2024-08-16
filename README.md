@@ -9,7 +9,9 @@ HERES AN EASY SD
 CCP INSTALL GUIDE THIS BABY RUNS WAY LESS RAM I EVEN CAN USE SDXL AND SD3!!! 
 U CAN EVEN PICK AMOUNT OF THREADS YOUR CPU HAS.
 
+you can use this to quantize any . model you want if u got limited ram just quantize the model but do note the lower you quantize the lower the quality of images you get.
 
+Update: I currently tried to quantize aura flow 2 but I didn't have enough RAM to save the output. but it did successfully qaunt it.
 
 1
 
