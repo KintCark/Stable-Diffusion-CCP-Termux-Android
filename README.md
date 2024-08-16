@@ -18,7 +18,7 @@ pkg updated && pkg upgrade -y && termux-setup-storage && pkg install wget -y && 
 2
 
 apt update && apt upgrade -y && apt-get install curl git gcc make build-essential python3 python3-dev python3-distutils python3-pip python3-venv python-is-python3 -y && pip install ffmpeg && apt dist-upgrade -y && apt install wget && apt-get install libgl1 libglib2.0-0 libsm6 libxrender1 libxext6 -y && apt-get install google-perftools &&
-apt install libgoogle-perftools-dev && pip install moviepy==1.0.3 && apt install cmake
+apt install libgoogle-perftools-dev && pip install moviepy==1.0.3 && pip install cmake
 
 3
 
