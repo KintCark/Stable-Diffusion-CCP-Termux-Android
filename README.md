@@ -2,6 +2,12 @@
 I've Made An Easy to Follow install Guide For Sd.ccp its uses way less ram than fastsdcpu and u can use any model and lora or vae it supports sd14,sd15,sdxl,and sd3 
 
 
+
+AAAAAA YOO! you can install vulkan now it will use the android graphics for gpu acceleration 
+I've updated the guide to install vulkan.
+
+
+
 Update: Flux is now Supported 
 
 
@@ -18,13 +24,6 @@ Update: I currently tried to quantize aura flow 2 but I didn't have enough RAM t
 pkg updated && pkg upgrade -y && termux-setup-storage && pkg install wget -y && pkg install git -y && pkg install proot -y && cd ~ && git clone https://github.com/MFDGaming/ubuntu-in-termux.git && cd ubuntu-in-termux && chmod +x ubuntu.sh && ./ubuntu.sh -y && ./startubuntu.sh
 
 2
-
-AAAAAA YOO! you can install vulkan now it will use the android graphics for gpu acceleration 
-I've updated the guide to install vulkan.
-
-
-
-
 
 apt update && apt upgrade -y && apt-get install curl git gcc make build-essential python3 python3-dev python3-distutils python3-pip python3-venv python-is-python3 -y && pip install ffmpeg --break-system-packages && apt dist-upgrade -y && apt install wget && apt-get install libgl1 libglib2.0-0 libsm6 libxrender1 libxext6 -y && apt-get install google-perftools &&
 apt install libgoogle-perftools-dev && pip install moviepy==1.0.3 --break-system-packages && pip install cmake --break-system-packages && apt install build-essential libvulkan-dev vulkan-tools mesa-vulkan-drivers -y 
