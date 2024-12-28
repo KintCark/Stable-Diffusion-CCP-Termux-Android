@@ -19,8 +19,29 @@ pkg updated && pkg upgrade -y && termux-setup-storage && pkg install wget -y && 
 
 2
 
-apt update && apt upgrade -y && apt-get install curl git gcc make build-essential python3 python3-dev python3-distutils python3-pip python3-venv python-is-python3 -y && pip install ffmpeg && apt dist-upgrade -y && apt install wget && apt-get install libgl1 libglib2.0-0 libsm6 libxrender1 libxext6 -y && apt-get install google-perftools &&
-apt install libgoogle-perftools-dev && pip install moviepy==1.0.3 && pip install cmake && apt install build-essential libvulkan-dev vulkan-tools mesa-vulkan-drivers -y && apt install shaderc
+AAAAAA YOO! you can install vulkan now it will use the android graphics for gpu acceleration 
+I've updated the guide to install vulkan.
+
+
+
+
+
+apt update && apt upgrade -y && apt-get install curl git gcc make build-essential python3 python3-dev python3-distutils python3-pip python3-venv python-is-python3 -y && pip install ffmpeg --break-system-packages && apt dist-upgrade -y && apt install wget && apt-get install libgl1 libglib2.0-0 libsm6 libxrender1 libxext6 -y && apt-get install google-perftools &&
+apt install libgoogle-perftools-dev && pip install moviepy==1.0.3 --break-system-packages && pip install cmake --break-system-packages && apt install build-essential libvulkan-dev vulkan-tools mesa-vulkan-drivers -y 
+
+
+
+install required packages for vulkan it will take an hour depending upon your phone
+
+
+git clone https://github.com/google/shaderc.git
+cd shaderc
+python3 utils/git-sync-deps
+cmake -S . -B build
+cmake --build build
+cmake --install build
+
+after you install the vulkan libs make sure you cd out of the folder before continuing to step 3
 
 3
 
