@@ -45,8 +45,10 @@ install required packages for vulkan it will take an hour depending upon your ph
 
 
 git clone https://github.com/google/shaderc.git
+
 cd shaderc
-python3 utils/git-sync-deps
+
+python3 utils/git-sync-deps 
 cmake -S . -B build
 cmake --build build
 cmake --install build
