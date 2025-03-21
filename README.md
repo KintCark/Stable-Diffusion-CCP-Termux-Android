@@ -19,6 +19,8 @@ you can use this to quantize any . model you want if u got limited ram just quan
 
 Update: I currently tried to quantize aura flow 2 but I didn't have enough RAM to save the output. but it did successfully qaunt it.
 
+
+
 1
 
 pkg updated && pkg upgrade -y && termux-setup-storage && pkg install wget -y && pkg install git -y && pkg install proot -y && cd ~ && git clone https://github.com/MFDGaming/ubuntu-in-termux.git && cd ubuntu-in-termux && chmod +x ubuntu.sh && ./ubuntu.sh -y && ./startubuntu.sh
@@ -27,6 +29,15 @@ pkg updated && pkg upgrade -y && termux-setup-storage && pkg install wget -y && 
 
 apt update && apt upgrade -y && apt-get install curl git gcc make build-essential python3 python3-dev python3-distutils python3-pip python3-venv python-is-python3 -y && pip install ffmpeg --break-system-packages && apt dist-upgrade -y && apt install wget && apt-get install libgl1 libglib2.0-0 libsm6 libxrender1 libxext6 -y && apt-get install google-perftools &&
 apt install libgoogle-perftools-dev && pip install moviepy==1.0.3 --break-system-packages && pip install cmake --break-system-packages && apt install build-essential libvulkan-dev vulkan-tools mesa-vulkan-drivers -y 
+
+
+Install & Setup a Virtual Environment
+Create and activate a virtual environment:
+
+python3 -m venv sdccp-env
+
+source sdccp-env/bin/activate
+
 
 
 
