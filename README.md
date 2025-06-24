@@ -8,7 +8,7 @@ make sure u install ubuntu in termux first
 Looks like Python 3.12 actually Works!! U have to create a virtual environment so here is the guide:
 
 
-To run ComfyUI in a separate environment on Termux with Python 3.10.11, follow these steps:
+To run sdcpp in a separate environment on Termux with Python 3.10.11, follow these steps:
 
 
 ---
@@ -27,8 +27,8 @@ apt install python3-full git ffmpeg
 
 Create and activate a virtual environment:
 
-python3 -m venv comfyui-env
-source comfyui-env/bin/activate
+python3 -m venv sdcpp-env
+source sdcpp-env/bin/activate
 
 
 AAAAAA YOO! you can install vulkan now it will use the android graphics for gpu acceleration 
