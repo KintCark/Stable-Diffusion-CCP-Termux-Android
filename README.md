@@ -1,6 +1,34 @@
 # Stable-Diffusion-CCP-Termux-Android
 I've Made An Easy to Follow install Guide For Sd.ccp its uses way less ram than fastsdcpu and u can use any model and lora or vae it supports sd14,sd15,sdxl,and sd3 
 
+Before installing virtual environment
+make sure u install ubuntu in termux first 
+
+
+Looks like Python 3.12 actually Works!! U have to create a virtual environment so here is the guide:
+
+
+To run ComfyUI in a separate environment on Termux with Python 3.10.11, follow these steps:
+
+
+---
+
+1. Install Required Packages
+
+First, ensure your Termux is updated and install necessary packages:
+
+apt update -y && apt upgrade -y
+apt install python3-full git ffmpeg
+
+
+---
+
+2. Install & Setup a Virtual Environment
+
+Create and activate a virtual environment:
+
+python3 -m venv comfyui-env
+source comfyui-env/bin/activate
 
 
 AAAAAA YOO! you can install vulkan now it will use the android graphics for gpu acceleration 
@@ -27,8 +55,8 @@ pkg updated && pkg upgrade -y && termux-setup-storage && pkg install wget -y && 
 
 2
 
-apt update && apt upgrade -y && apt-get install curl git gcc make build-essential python3 python3-dev python3-pip python3-venv python-is-python3 -y && pip install ffmpeg --break-system-packages && apt dist-upgrade -y && apt install wget && apt-get install libgl1 libglib2.0-0 libsm6 libxrender1 libxext6 -y && apt-get install google-perftools &&
-apt install libgoogle-perftools-dev && pip install moviepy==1.0.3 --break-system-packages && pip install cmake --break-system-packages && apt install build-essential libvulkan-dev vulkan-tools mesa-vulkan-drivers -y 
+apt update && apt upgrade -y && apt-get install curl git gcc make build-essential python3 python3-dev python3-pip python3-venv python-is-python3 -y && pip install ffmpeg && apt dist-upgrade -y && apt install wget && apt-get install libgl1 libglib2.0-0 libsm6 libxrender1 libxext6 -y && apt-get install google-perftools &&
+apt install libgoogle-perftools-dev && pip install moviepy==1.0.3 && pip install cmake && apt install build-essential libvulkan-dev vulkan-tools mesa-vulkan-drivers -y 
 
 
 Install & Setup a Virtual Environment
