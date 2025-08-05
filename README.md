@@ -81,17 +81,7 @@ cmake -S . -B build
 cmake --build build
 cmake --install build
 
-after you install the vulkan libs make sure you cd out of the folder before continuing to step 3
-
-or
-
-2.5
-
-Using OpenBLAS
-
-
-cmake .. -DGGML_OPENBLAS=ON
-cmake --build . --config Release
+after you install the vulkan libs make sure you cd out of the folder before continuing to step 3 restart termux
 
 
 
@@ -138,6 +128,13 @@ if this Command doesn't work go to the original respiratory and copy it from the
 
 cmake .. -DSD_VULKAN=ON
 cmake --build . --config Release
+
+OR
+
+12.5
+Using OpenBLAS
+
+cmake .. -DGGML_OPENBLAS=ON cmake --build . --config Release
 
 
 TO RUN
