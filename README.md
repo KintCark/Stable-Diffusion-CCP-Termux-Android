@@ -83,6 +83,20 @@ cmake --install build
 
 after you install the vulkan libs make sure you cd out of the folder before continuing to step 3
 
+or
+
+2.5
+
+Using OpenBLAS
+
+
+cmake .. -DGGML_OPENBLAS=ON
+cmake --build . --config Release
+
+
+
+
+
 3
 
 git clone --recursive https://github.com/leejet/stable-diffusion.cpp
