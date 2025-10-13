@@ -139,7 +139,8 @@ OR
 12.5
 Using OpenBLAS
 
-cmake .. -DGGML_OPENBLAS=ON cmake --build . --config Release
+cmake .. -DGGML_OPENBLAS=ON
+cmake --build . --config Release
 
 
 TO RUN
