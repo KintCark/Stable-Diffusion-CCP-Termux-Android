@@ -1,5 +1,4 @@
-
-yyyoooooo dev added wan 2.1 and 2.2 support I will be testing it on 10gb ran I hope it 💪 
+wan gguf works but needs 8gb ram free on 12gb Ram device so ull have to disable alot of apps and bloatware on your android
 
 
 
