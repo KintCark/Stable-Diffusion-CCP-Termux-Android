@@ -1,5 +1,6 @@
 wan gguf works but needs 8gb ram free on 12gb Ram device so ull have to disable alot of apps and bloatware on your android
 
+wan 2.1 13b sell forcing q4 gguf and umt5-xxl-encoder-Q4_K_S.gguf with wan 2.1 fp8 models work and frames 9 fps 6 u get 90 its/s per step and u only need 6-8 steps it works 👍 
 
 
 # Stable-Diffusion-CCP-Termux-Android
