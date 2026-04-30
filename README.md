@@ -61,7 +61,12 @@ pkg update -y && pkg upgrade && pkg install wget curl proot tar -y && wget https
 2
 
 apt update && apt upgrade -y && apt-get install curl git gcc make build-essential python3 python3-dev python3-pip python3-venv python-is-python3 -y && pip install ffmpeg && apt dist-upgrade -y && apt install wget && apt-get install libgl1 libglib2.0-0 libsm6 libxrender1 libxext6 -y && apt-get install google-perftools &&
-apt install libgoogle-perftools-dev && pip install moviepy==1.0.3 && pip install cmake && apt install build-essential libvulkan-dev vulkan-tools mesa-vulkan-drivers -y 
+apt install libgoogle-perftools-dev && pip install moviepy==1.0.3 && pip install cmake && apt install build-essential && pip install pnpm && pip install cython
+
+
+ONLY NEED THIS FOR VULKAN SNAPDRAGON CHIPS
+
+ libvulkan-dev vulkan-tools mesa-vulkan-drivers -y 
 
 
 Install & Setup a Virtual Environment
