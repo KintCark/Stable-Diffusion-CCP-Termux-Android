@@ -3,7 +3,10 @@ I Didn't know you Don't Need Ubuntu To Run SD.cpp it works completely Native. al
 
 
 
-pkg update \&\& pkg upgrade -y
+pkg update
+
+pkg upgrade -y
+
 pkg install git cmake python wget && pkg install libwebp &&  pkg install nodejs && npm install -g pnpm
 
 git clone --recursive https://github.com/leejet/stable-diffusion.cpp
