@@ -4,8 +4,15 @@ I Didn't know you Don't Need Ubuntu To Run SD.cpp it works completely Native. al
 
 
 pkg update \&\& pkg upgrade -y
-pkg install git cmake python wget && pkg install libwebp &&  pkg install nodejs && npm install -g pnpm && git clone --recursive https://github.com/leejet/stable-diffusion.cpp
-cd stable-diffusion.cpp && mkdir build && cd build && cmake -D SD_USE_SYSTEM_WEBP=ON .. && cmake .. -DSD_METAL=OFF -DSD_CUDA=OFF
+pkg install git cmake python wget && pkg install libwebp &&  pkg install nodejs && npm install -g pnpm
+
+git clone --recursive https://github.com/leejet/stable-diffusion.cpp
+
+cd stable-diffusion.cpp 
+
+mkdir build && cd build
+
+cmake -D SD_USE_SYSTEM_WEBP=ON .. && cmake .. -DSD_METAL=OFF -DSD_CUDA=OFF
 make -j4
 
 
