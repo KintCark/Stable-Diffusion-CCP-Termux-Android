@@ -15,7 +15,7 @@ cd stable-diffusion.cpp
 
 mkdir build && cd build
 
-BUILD_SHARED_LIBS=ON && cmake -D SD_USE_SYSTEM_WEBP=ON .. && cmake .. -DSD_METAL=OFF -DSD_CUDA=OFF
+cmake -D SD_USE_SYSTEM_WEBP=ON .. && cmake .. -DSD_METAL=OFF -DSD_CUDA=OFF
 make -j4
 
 
