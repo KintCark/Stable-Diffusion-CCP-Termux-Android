@@ -1,3 +1,12 @@
+
+updating the repo:
+
+cd stable-diffusion.cpp
+git pull origin master
+git submodule init
+git submodule update
+
+
 I Didn't know you Don't Need Ubuntu To Run SD.cpp it works completely Native. all those packages where not needed. 😁😅👍😎🤯
 
 
