@@ -24,6 +24,10 @@ cd stable-diffusion.cpp
 
 mkdir build && cd build
 
+pkg install libwebp
+cmake .. -DSD_USE_SYSTEM_WEBP=ON
+
+
 cmake .. -DSD_SERVER_BUILD_FRONTEND=OFF
 make -j$(nproc)
 
