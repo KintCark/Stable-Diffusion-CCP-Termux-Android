@@ -16,7 +16,7 @@ pkg update
 
 pkg upgrade -y
 
-pkg install git cmake python wget && pkg install libwebp &&  pip install nodejs && pip install npm && pkg install nodejs-lts && npm install pnpm && pip install pnpm && pkg install pnpm
+pkg install git cmake python wget && pkg install libwebp &&  pip install nodejs && pip install npm && npm install -g npm@12.0.2 && pkg install nodejs-lts && npm install pnpm && pip install pnpm && pkg install pnpm
 
 git clone --recursive https://github.com/leejet/stable-diffusion.cpp
 
