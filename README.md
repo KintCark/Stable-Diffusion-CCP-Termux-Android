@@ -1,5 +1,5 @@
 
-after you get past mkdir folder I'll have to copy the next 2 steps to get it to work as I think when I posted it the code got ordered the wrong way.
+after you get past mkdir folder u'll have to copy the next 2 steps to get it to work as I think when I posted it the code got ordered the wrong way.
 
 
 updating the repo:
