@@ -1,4 +1,7 @@
 
+after you get past mkdir folder I'll have to copy the next 2 steps to get it to work as I think when I posted it the code got ordered the wrong way.
+
+
 updating the repo:
 
 cd stable-diffusion.cpp
